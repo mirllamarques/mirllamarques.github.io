@@ -40,6 +40,13 @@ h5{
     font-size: 40px;
     margin-top: 20px;
 }
+h6{
+    font-family: 'Montez', cursive;
+    color: white;
+    font-size: 150px;
+    font-weight: 300;
+    margin-top: 10px; 
+}
 p{
     font-family: 'Alex Brush', cursive;
     
@@ -93,6 +100,7 @@ span{
 }
 /*my code instagram*/
 #algoritmizando{
+    background-color: var(--details-color);
     background-image: url(/assets/instagram-wallpaper.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -113,7 +121,7 @@ span{
     height: 250px;
 }
 .algoritmizando{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .view{
     margin-left: 50px;
@@ -123,9 +131,45 @@ span{
     justify-content: space-between;
 }
 #instagram{
-    margin-left: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.find-us{
     margin-top: 90px;
+    margin-left: 350px;
+}
+#logo{
+    margin-top: 90px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.algoritmizando-instagram{
+    margin-top: 90px;
+    margin-right: 30px;
     margin-bottom: 10px;
     width: 80px;
     height: 80px;
+}
+/*Contact me*/
+#contact{
+    background-color: var(--details-color);
+}
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#social-media{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 20px;
 }
