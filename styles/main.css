@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
 }
+/*Fonts*/
 h1{
     font-family: 'Parisienne', cursive;
     color: white;
@@ -21,7 +22,7 @@ h2{
      margin-top: 50px;
 }
 h3{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Work Sans', sans-serif;
     color: var(--text-color);
     font-size: 40px;
     margin-top: 20px;
@@ -34,9 +35,9 @@ h4{
     margin-top: 50px;
 }
 h5{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Work Sans', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 20px;
 }
 p{
@@ -45,6 +46,7 @@ p{
     color: white;
     font-size: 50px;
 }
+/*header*/
 header{
     background-image: url(/assets/wallpaper.png);
     background-size: 100%;
@@ -62,8 +64,11 @@ header{
 #subtitle{
     margin-bottom: 60px;
 }
+/*introduce myself*/
+#intro{
+    margin-bottom: 115px;
+}
 span{
-    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +83,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px 100px 10px;
+    margin: 50px 70px 0px 10px;
 }
 #text-presentation{
     display: flex;
@@ -86,19 +91,18 @@ span{
     align-items: center;
     justify-content: center;
 }
+/*my code instagram*/
 #algoritmizando{
     background-image: url(/assets/instagram-wallpaper.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-bottom: 500px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     margin: auto;
 }
 #code-title{
-    
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +113,7 @@ span{
     height: 250px;
 }
 .algoritmizando{
-    margin-top: 150px;
+    margin-top: 70px;
 }
 .view{
     margin-left: 50px;
@@ -119,8 +123,8 @@ span{
     justify-content: space-between;
 }
 #instagram{
-    margin-left: 1150px;
-    margin-top: 50px;
+    margin-left: 1160px;
+    margin-top: 90px;
     margin-bottom: 10px;
     width: 80px;
     height: 80px;

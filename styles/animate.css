@@ -1,3 +1,4 @@
+/*fade in effects*/
 @-webkit-keyframes fadeInUp {
     from {
       opacity: 0;
@@ -43,10 +44,4 @@
 .animated.delay-2s{
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
-}
-.typed-cursor{
-  color: var(--details-color);
-}
-.typed-fade-out {
-  color: #ca2e2b;
 }
