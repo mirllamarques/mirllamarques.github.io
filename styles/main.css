@@ -146,6 +146,7 @@ span{
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 .algoritmizando-instagram{
     margin-top: 90px;
@@ -153,6 +154,7 @@ span{
     margin-bottom: 10px;
     width: 80px;
     height: 80px;
+    cursor: pointer;
 }
 /*Contact me*/
 #contact{
