@@ -31,11 +31,12 @@
 <body>
     <!--header-->
     <header>
-        <div id="title"> 
+        <div id="main-title"> 
             <h1 class="animated fadeInUp delay-1s">Who is Mirlla?</h1>
         </div>
         <div id="subtitle">
             <p class="animated fadeInUp delay-2s">come on and meet me</p>
+            <p id= "warning" class="animated fadeInUp delay-2s">(still working on responsiveness)</p>
         </div>
     </header>
     
@@ -47,8 +48,9 @@
         <script src="/scripts/typed.js"></script>
 
         <div id="info">
-            <img src="/assets/me.png" alt="Mirlla" id="img">
-
+            <a href="#find-me">
+                <img src="/assets/me.png" alt="Mirlla" id="img">
+            </a>
             <div id="text-presentation">
                 <h3>Mirlla Marques Santana Alves</h3>
                 <h3>Computer Science Student at Federal</h3>
@@ -58,28 +60,55 @@
     </div>
 
     <!--my code instagram-->
-     <div id="algoritmizando">
-        <h4 id="code-title">About Code</h4>
+     <div class="div">
+        <h2 id="title">Code Instagram</h2>
         <div class="view">
-            <img src="/assets/algoritmizando.png" alt="logo-algoritmizando" id="logo-algoritmizando">
+            <a href="https://www.instagram.com/algoritmizando/">
+                <img src="/assets/Algoritmizando.jpg" alt="logo-algoritmizando" class="logo-pages">
+            </a>
             <div id="text-presentation" class="algoritmizando">
-                <h5>A friend and I have an Instagram Account</h5>
-                <h5>where we teach programming</h5>
-                <h5>for beginners</h5>
+                <h3>A friend and I have an Instagram</h3>
+                <h3>account where we teach </h3>
+                <h3>programming for beginners</h3>
             </div>
         </div>
 
-        <div id="instagram">
-            <h5 class="find-us">You can find us at @algoritmizando</h5>
-            <a href="https://www.instagram.com/algoritmizando/">
-            <img src="/assets/instagram.svg" alt="instagram" class="algoritmizando-instagram">
+    <!--Mentor-->
+    <div class="div">
+        <h2 id="title">Frontend Mentor</h2>
+        <div class="view">
+            <a href="https://github.com/pyladiespb-org/pysite/tree/master/frontend">
+                <img src="/assets/perfil_mascara.png" alt="PyLadies Paraíba"  class="logo-pages" id="pylady">
             </a>
+            <div id="text-presentation" class="mentor">
+                <h3>I was frontend mentor on PyLadies</h3>
+                <h3>Paraíba's site, an <a href="https://andromedev.opendevufcg.org/">Andromedev</a></h3>
+                <h3>project of <a href="https://opendevufcg.org">OpenDev UFCG</a></h3>
+            </div>
         </div>
+
+    </div>
+
+      <!--Python Brasil-->
+      <div class="div" id="pybr">
+        <h2 id="title">Python Brasil 2020</h2>
+        <div class="view">
+            <a href="https://www.youtube.com/watch?v=1HhMeU9dpZY&t=3422s&ab_channel=pythonbrasil">
+                <img src="/assets/Python Brasil 2020.PNG" alt="Python Brasil 2020 logo"  class="logo-pages">
+            </a>
+            <div id="text-presentation">
+                <h3>I was speaker in <a href="2020.pythonbrasil.org.br">Python Brasil 2020</a></h3> <a href=""></a>
+                <h3>with the lecture "Human Learning:</h3>
+                <h3>Por quê ensinar e aprender Python?"</h3>
+            </div>
+        </div>
+
+    </div>
 
     <!--contact me-->
     <div id="contact">
-        <div id="contact-me">
-            <h6>Contact me</h6>
+        <div id="find-me">
+            <h6>Find me</h6>
             <h6>in</h6>
         </div>
         <div id="social-media">
@@ -89,9 +118,13 @@
             <a href="https://github.com/mirllamarques">
                 <img src="./assets/github.svg" alt="github" id="logo">
             </a>
+            <a href="mailto:mirllamsa@gmail.com">
+                <img src="/assets/gmail.svg" alt="email" id="logo">
+            </a>
             <a href="https://www.linkedin.com/in/mirlla-marques/">
                 <img src="/assets/linkedin.svg" alt="linkedin" id="logo">
             </a>
+            
         </div>
     </div>
     
