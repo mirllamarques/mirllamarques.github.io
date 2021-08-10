@@ -11,8 +11,8 @@
 /*Fonts*/
 h1{
     font-family: 'Parisienne', cursive;
-    color: white;
-    font-size: 120px;
+    color: var( --details-color);
+    font-size: 100px;
 }
 h2{
     font-family: 'Montez', cursive;
@@ -27,6 +27,12 @@ h3{
     font-size: 40px;
     margin-top: 20px;
 }
+h4{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
 h6{
     font-family: 'Montez', cursive;
     color: white;
@@ -36,34 +42,66 @@ h6{
 }
 p{
     font-family: 'Alex Brush', cursive;
-    color: white;
+    color:var(--details-color);
     font-size: 50px;
 }
 a{
     text-decoration: none;
     color:var(--details-color);
 }
-#warning{
-    font-family: 'Parisienne', cursive;
-    font-size: 30px;
-}
-/*header*/
-header{
-    background-image: url(/assets/wallpaper.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+/*Nav bar*/
+nav{
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin-bottom: 10px;
 }
-#main-title{
-    margin-top: 180px;
-    margin-bottom: 0;
+.menu{
+    list-style:none;
+    float:left;
+    margin-left: 80px;
+    margin-right: 191px;
 }
-#subtitle{
-    margin-bottom: 60px;
+.menu li{
+    position:relative;
+    float:left;
+    margin-left: 150px;
+}
+header{
+    background-color: var( --details-color);
+    display: flex;
+    background-size: 400px;
+    position: fixed;
+}
+#sub-menu{
+     text-decoration:none; 
+     padding:5px 10px; 
+     display:block;}
+
+#sub-menu:hover{
+    background:#e43a40;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li h4:hover{
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li  ul{
+    position:absolute;
+    top:55px;
+    left:0;
+    display:none;
+    background-color: var(--details-color);
+    
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    display:block;
+    width:150px;
+    margin-left: 5px;
 }
 /*introduce myself*/
 #intro{
@@ -157,8 +195,7 @@ span{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: -20px;
   margin-left: 80px;
   margin-right: 80px;
-  padding-bottom: 20px;
 }
