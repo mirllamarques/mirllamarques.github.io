@@ -31,17 +31,25 @@
 <body>
     <!--header-->
     <header>
-        <div id="main-title"> 
-            <h1 class="animated fadeInUp delay-1s">Who is Mirlla?</h1>
-        </div>
-        <div id="subtitle">
-            <p class="animated fadeInUp delay-2s">come on and meet me</p>
-            <p id= "warning" class="animated fadeInUp delay-2s">(still working on responsiveness)</p>
-        </div>
-    </header>
+        <nav>
+            <ul class="menu">
+                  <li><a href="#intro"><h4>Mirlla</h4></a></li>
+                        <li><h4 href="#">Experiences</h4>
+                           <ul>
+                                <li><a href="#code"><h4 id="sub-menu">Code Instagram</h4></a></li>
+                                <li><a href="#pyladies"><h4 id="sub-menu">Frontend Mentor</h4></a></li>
+                                <li><a href="#pybr"><h4 id="sub-menu">Python Brasil 2020</h4></a></li>
+                             </ul>
+                      </li>
+                  <li><a href="#skills"><h4 >Skills</h4></a></li>
+                  <li><a href="#contact"><h4>Contact me</h4></a></li>
+          </ul>
+          </nav>
+        </header>
     
-        <!--introduce myself-->
+    <!--introduce myself-->
     <div id="intro">
+        <br>  <br>  <br>  <br>
         <span id = "i-am"><h2>So...</h2></span>
  
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
@@ -60,7 +68,7 @@
     </div>
 
     <!--my code instagram-->
-     <div class="div">
+     <div class="div" id="code">
         <h2 id="title">Code Instagram</h2>
         <div class="view">
             <a href="https://www.instagram.com/algoritmizando/">
@@ -74,7 +82,7 @@
         </div>
 
     <!--Mentor-->
-    <div class="div">
+    <div class="div" id="pyladies">
         <h2 id="title">Frontend Mentor</h2>
         <div class="view">
             <a href="https://github.com/pyladiespb-org/pysite/tree/master/frontend">
