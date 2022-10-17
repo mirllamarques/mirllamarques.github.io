@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0 ; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #f0eada;}
+:root{
+  --text-color: #96563c;
+  --details-color: #b21f23;
+  --background-color: #f0eada;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Fonts*/
+h1{
+  font-family: 'Parisienne', cursive !important;
+  color: var( --details-color)!important;
+  font-size: 100px !important;
+}
+h2{
+  font-family: 'Montez', cursive !important;
+   color: var(--details-color);
+   font-size: 8rem !important;
+   font-weight: 300 !important;
+   margin-top: 50px !important;
+}
+h3{
+  font-family: 'Work Sans', sans-serif !important;
+  color: var(--text-color) !important;
+  font-size: 35px !important;
+  margin-top: 20px !important;
+}
+h4{
+  font-family: 'Work Sans', sans-serif !important;
+  color: white !important;
+  font-size: 2.4rem !important;
+  margin-top: 0.2rem !important;
+}
+h6{
+  font-family: 'Montez', cursive !important;
+  color: white !important;
+  font-size: 150px !important;
+  font-weight: 300 !important;
+  margin-top: 10px !important;
+}
+p{
+  font-family: 'Alex Brush', cursive !important;
+  color:var(--details-color) !important;
+  font-size: 50px !important;
+}
+a{
+  text-decoration: none !important;
+  color:var(--details-color) !important;
+}
+
+::-webkit-scrollbar {
+  width: 2vh;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--details-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--details-color);
+}
