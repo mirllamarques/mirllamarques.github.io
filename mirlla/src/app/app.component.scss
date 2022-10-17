@@ -1,5 +1,5 @@
 .toolbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -41,8 +41,38 @@
   text-align: center;
   align-items: center;
 }
-
-
+.exp{
+  text-align: center;
+}
+.logo-pages{
+  margin-left: 35px;
+  width: 310px;
+  height: 310px;
+  border-radius: 500px;
+}
+#title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 200px 90px 250px;
+}
+.contact{
+  background-color: #b21f23;
+}
+#find-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#social-media{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: -20px;
+margin-left: 80px;
+margin-right: 80px;
+}
 @media screen and (max-width: 1399px){
   #text-presentation{
   margin-right: 2rem;
@@ -50,7 +80,7 @@
   #info{
     margin-top: 4rem;
     justify-content: space-between;
-
+    margin-right: 3rem;
   }
   #img{
     margin-right: 5rem;
@@ -61,7 +91,72 @@
   .me{
     margin-top: 10rem;
   }
-
+.exp{
+  margin-top: 8rem;
+  }
+.skill{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.skm{
+  display: flex;
+  justify-content:  center;
+}
+.html{
+  margin-top: 5rem;
+  margin-right: 10rem;
+}
+.css{
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+.sofa{
+  width: 33rem;
+  height: 18rem;
+}
+#java{
+  width: 5rem;
+  height: 5em;
+}
+#spring{
+  width: 5rem;
+  height: 5rem;
+}
+#bd{
+  width: 6rem;
+  height: 6rem;
+}
+#py{
+  width: 5rem;
+  height: 5rem;
+}
+#ts{
+  width: 5rem;
+  height: 5rem;
+}
+#angular{
+  width: 6rem;
+  height: 6rem;
+}
+.contact{
+  margin-top: -0.4rem;
+  padding-top: 5rem;
+}
+#find{
+  margin-bottom: 5rem;
+}
+#in{
+  margin-bottom: 10rem;
+}
+#logo{
+  margin-top: 90px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
 }
 @media screen and (min-width: 1400px){
   #text-presentation{
@@ -80,12 +175,64 @@
   .me{
     margin-top: 13rem;
   }
+  .exp{
+    margin-top: 12rem;
+  }
+  span{
+    font-size: 10rem !important;
+  }
+  #title{
+    margin-bottom: 7rem;
+  }
+  .skill{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .skm{
+    display: flex;
+    justify-content:  center;
+
+  }
+  .html{
+    margin-top: 10rem;
+    margin-right: 15rem;
+  }
+  .css{
+    margin-top: 10rem;
+    margin-left: 15rem;
+  }
+  .sofa{
+    width: 50rem;
+    height: 30rem;
+  }
+  .contact{
+    margin-top: -0.4rem;
+    padding-top: 7rem;
+  }
+  #find{
+    margin-bottom: 5rem;
+  }
+  #in{
+    margin-bottom: 25rem;
+  }
+  #logo{
+    margin-top: 90px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+  }
   h2{
     font-size: 10rem !important;
   }
   h3{
     font-size: 3rem !important;
   }
+h6{
+  font-size: 12rem !important;
+}
 }
 #text-presentation{
   display: flex;

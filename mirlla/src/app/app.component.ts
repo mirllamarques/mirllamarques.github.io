@@ -19,7 +19,7 @@ ngOnInit() {
 
       backSpeed: 50,
 
-      startDelay: 3000,
+      startDelay: 2000,
 
       backDelay: 2000,
 
